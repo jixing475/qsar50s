@@ -283,16 +283,7 @@ qsar50s/
 If you use this package in your research, please cite our paper:
 
 ```bibtex
-@article{liu2024integrated,
-  title={Integrated Machine Learning and Structure-Based Virtual Screening for Identification of Natural Product Anti-Cutibacterium acnes Compounds with Putative 50S Ribosome Inhibitory Activity},
-  author={Liu, Jixing and [Other Authors]},
-  journal={Journal of Medicinal Chemistry},
-  year={2025},
-  volume={67},
-  number={12},
-  pages={12345--12359},
-  publisher={xxx}
-}
+xxx
 ```
 
 ## 📄 License

@@ -1,0 +1,54 @@
+# Project paths configuration
+paths:
+  # Data directories
+  data_dir: "data"
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  external_data: "data/external"
+  
+  # External tool paths
+  padel_descriptor: "../data/external/PaDEL-Descriptor"
+  
+  # Output files
+  training_data: "../data/processed/training_data.csv"
+  test_data: "../data/processed/test_data.csv"
+  fingerprints_output: "../data/processed/fingerprints"
+  
+# Model parameters
+model_params:
+  # Data splitting
+  test_size: 0.2
+  random_state: 42
+  
+  # Feature selection
+  variance_threshold: 0.1
+  correlation_threshold: 0.8
+  
+  # Activity threshold
+  activity_cutoff: 6.0  # pMIC >= 6 for active compounds
+  
+# Fingerprint settings
+fingerprints:
+  # Available types: MACCS, PubChem, ECFP, etc.
+  default_type: "PubChem"
+  radius: 2
+  n_bits: 1024
+  
+# PaDEL-Descriptor settings
+padel:
+  threads: 2
+  remove_salt: true
+  standardize_nitro: true
+  standardize_tautomers: true
+  detect_aromaticity: true
+  
+# ADMET filtering criteria
+admet:
+  molecular_weight: [130, 725]
+  psa: [7, 200]
+  hbd: [0, 6]
+  hba: [2, 20]
+  logp: [-2, 6.5]
+  oral_absorption: [25, 100]
+  herg: [-5, 0]
+  cns_permeability: [-2, 2]

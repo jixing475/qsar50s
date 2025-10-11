@@ -166,3 +166,4 @@ models/*.csv
 # Temporary files
 *.tmp
 *.temp
+.Rproj.user

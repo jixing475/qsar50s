@@ -6,7 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/jixing475/qsar50s?style=social)](https://github.com/jixing475/qsar50s)
 [![GitHub forks](https://img.shields.io/github/forks/jixing475/qsar50s?style=social)](https://github.com/jixing475/qsar50s)
 
-A comprehensive Python package for machine learning-based virtual screening of 50S ribosomal inhibitors targeting *Cutibacterium acnes*. This package implements the complete workflow from data preprocessing to QSAR model development and virtual screening, as described in our published research.
+This repo implements the complete workflow from data preprocessing to QSAR model development and virtual screening, as described in our published research.
 
 ## 🎯 Features
 
